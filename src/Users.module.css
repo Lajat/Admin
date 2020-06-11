@@ -1,0 +1,124 @@
+.main{
+    display:flex;
+    justify-content: space-between;
+    background-image: url('https://image.freepik.com/free-photo/3d-low-poly-abstract-background_1048-9819.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.table th{
+    text-align: left;
+}
+
+
+.wrapper{
+    min-height: 350px;
+    
+    box-shadow: 1px 1px 5px 0 #455c71;
+    background-color: #435c70;
+}
+.table{
+    max-height: 435px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    width: 60%;
+}
+.table{
+    background-color: #50697f;
+    color: #fff;
+    margin-bottom: 0;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+
+
+.mainRow {
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border:2px solid #435c70;
+}
+
+.mainRow:hover{
+    background-color: rgba(0,0,0,.075);
+}
+
+
+td{
+    width: calc(100%/4) !important;
+}
+.input {
+    width: 20px;
+    height: 20px;
+    background-color: #435c70;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.input:checked {
+    background-image:url("https://banner2.cleanpng.com/20180415/hue/kisspng-check-mark-computer-icons-clip-art-green-tick-5ad3572d4dbe90.8552842115237998533185.jpg");
+    background-size: cover;
+    
+
+}
+
+
+
+.mainRow {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.userdiv{
+    width:55%;
+}
+.btn {
+    border-radius: 0;
+    padding: 15px 28px;
+    transition: all 0.2s ease;
+    max-width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.btnWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+}
+td{
+    color:whitesmoke;
+    font-size: 16px;
+    
+}
+.underline{
+    text-decoration: none;
+}
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

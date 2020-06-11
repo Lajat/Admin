@@ -1,0 +1,92 @@
+
+.table{
+    background-color: #50697f;
+    color: #fff;
+    margin-bottom: 0;
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+.table th{
+    text-align: left;
+}
+
+
+
+.mainRow {
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border:2px solid #435c70;
+    
+}
+
+.mainRow:hover{
+    background-color: rgba(0,0,0,.075);
+}
+
+
+.ID,.title{
+    width:calc(100%/2) !important;
+}
+th{
+    width:calc(100%/4);
+}
+
+
+
+
+
+.mainRow {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+.btn {
+    border-radius: 0;
+    padding: 15px 0px;
+    transition: all 0.2s ease;
+    max-width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+.btnWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+}
+td{
+    color:whitesmoke;
+    font-size: 16px;
+    
+}
+.underline{
+    text-decoration: none;
+}
+.main{
+    width:40%;
+}
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+

@@ -1,0 +1,24 @@
+.btnWrapper{
+    height:100vh;
+    width:100%;
+    background-image: url('https://image.freepik.com/free-photo/3d-low-poly-abstract-background_1048-9819.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn {
+    border-radius: 10px;
+    padding: 25px 30px;
+    transition: all 0.2s ease;
+    text-align: center;
+    color: #fff;
+    background-color: #f5a623;
+    border: 2px solid #f5a623;
+    font-size: 90%;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
